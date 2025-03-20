@@ -40,7 +40,7 @@ export default function TodoItem({ todo, inputRef }) {
     >
       <div className="flex space-x-3 sm:w-full w-4/5">
         <div {...attributes} {...listeners} className="cursor-grab p-2">
-          <FontAwesomeIcon icon={faBars} className="w-[15px] opacity-50 action-none" />
+          <FontAwesomeIcon icon={faBars} className="w-[15px] opacity-50 touch-none" />
         </div>
 
         <label
